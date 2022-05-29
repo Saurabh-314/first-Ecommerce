@@ -549,7 +549,11 @@ footer .copyright {
         color:#222;
         font-size: 24px;
     }
-    #lg-bag{
+    /* #lg-bag{
+        display: none;
+    } */
+    .fa-bag-shopping:before, .fa-shopping-bag:before {
+        content: "\f290";
         display: none;
     }
 
@@ -558,15 +562,17 @@ footer .copyright {
         padding: 0 80px;
         background-position: top 30% right 30%;
     }
-
+    .section-p1 {
+        padding: 40px 20px;
+    }
     #feature {
-        justify-content: center;
+        justify-content: space-evenly;
     }
     #feature .fe-box {
         margin: 15px 15px;
     }
     #product1 .pro-container {
-        justify-content: center;
+        justify-content: space-evenly;
     }
     #product1 .pro {
         margin: 15px 15px;
@@ -579,7 +585,7 @@ footer .copyright {
         height: 30vh;
     }
     #banner3 {
-        padding: 0 40px;
+        padding: 0 16px;
     }
     #banner3 .banner-box {
         min-width: 28%;
@@ -589,12 +595,12 @@ footer .copyright {
     }
 }
 
-@media (max-width: 475px) {
+@media (max-width: 577px) {
     #header {
         padding: 10px 30px;
     }
     .section-p1 {
-        padding: 20px;
+        padding: 30px;
     }
     h2 {
         font-size: 32px;
@@ -611,7 +617,7 @@ footer .copyright {
         margin: 0 0 15px 0;
     }
     #feature {
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     #product1 .pro {
         width: 100%;
